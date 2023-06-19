@@ -100,7 +100,7 @@ private extension NewsViewController {
         let styleImage = UIImage(systemName: "textformat.size")
         let styleBarbutton = UIBarButtonItem(title: nil, image: styleImage, primaryAction: nil, menu: viewModel.styleMenu)
         styleBarbutton.tintColor = .systemGray
-        navigationItem.rightBarButtonItem = styleBarbutton
+//        navigationItem.rightBarButtonItem = styleBarbutton
 
         let categoryImage = UIImage(systemName: "list.dash")
         let categoryBarButton = UIBarButtonItem(title: nil, image: categoryImage, primaryAction: nil, menu: viewModel.categoryMenu)

@@ -122,7 +122,7 @@ class NewsViewModel {
             case .uikit:
                 return "UIKit"
             case .bbc, .cnn:
-                return self.rawValue.uppercased()
+                return "Ontario" ;// self.rawValue.uppercased()
             case .apollo, .axios, .facebook, .flipboard, .instagram, .reddit, .robinhood:
                 return self.rawValue.capitalized
             }
